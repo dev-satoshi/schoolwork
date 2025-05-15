@@ -1,0 +1,5 @@
+$make run
+gcc -O2 -o count_primes count_primes.c -lm
+/usr/bin/time ./count_primes
+1から10000000までの素数の数: 664579
+        0.89 real         0.67 user         0.00 sys
