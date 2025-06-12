@@ -1,0 +1,9 @@
+$make run
+gcc -Wall -Wextra -std=c11 -o linked_list_sort main.c list.c
+/usr/bin/time ./linked_list_sort
+Before sort:
+87 52 6 59 61 1 85 84 36 12 56 34 26 14 51 39 99 90 15 27
+After sort:
+1 6 12 14 15 26 27 34 36 39 51 52 56 59 61 84 85 87 90 99
+Time: 0.0000 sec
+        0.34 real         0.00 user         0.00 sys

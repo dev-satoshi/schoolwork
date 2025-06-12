@@ -1,0 +1,9 @@
+$make run
+gcc -Wall -Wextra -std=c11 -o array_sort main.c sort.c
+/usr/bin/time ./array_sort
+Before sort:
+86 95 41 56 11 62 29 70 90 40 11 21 83 91 95 87 75 67 98 88
+After sort:
+11 11 21 29 40 41 56 62 67 70 75 83 86 87 88 90 91 95 95 98
+Time: 0.0000 sec
+        0.31 real         0.00 user         0.00 sys
